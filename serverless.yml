@@ -60,7 +60,7 @@ functions:
     handler: bin/handler
     events:
       - http:
-          path: test
+          path: v1
           method: get
     environment:
       GIN_MODE: release
